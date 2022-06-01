@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #FFFFFF6C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13.8px;
+  padding: 26px 45px;
+  position: absolute;
+  width: calc(100% - 90px);
+}
+
+.header a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  gap: 40px;
+}
+
+.nav-link {
+  padding-top: 7px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-right: 3px;
+  gap: 40px;
+}
+
+.banner {
+  min-height: 850px;
+  background-image: url(img/banner.jpg);
+}
+
+.banner-content {
+  max-width: 320px;
+  padding: 180px 0 0 115px;
+  color: #ffffff;
+}
+
+.banner-content h1 {
+  font-size: 55px;
+  line-height: 59.95px;
+}
+
+.banner-content p {
+  max-width: 260px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0 25px;
+}
+
+.banner-content .btn {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #000000;
+  border-radius: 2px;
+  width: 260px;
+  height: 52px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.banner-content .btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  outline: none;
+}
+
+.filler {
+  background-color: #f0faf7;
+  height: 189px;
+}
+
+.about-container {
+  margin: 40px auto 0;
+  width: 650px;
+}
+
+.about-container h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  line-height: 45.6px;
+  margin: 79px 0 25px;
+}
+
+.about-container p {
+  font-size: 20px;
+  line-height: 31.2px;
+  text-align: center;
+  padding: 0 8px 0 9px;
+}
+
+.about-container img {
+  display: block;
+  margin-top: 14px;
+}
+
+.products {
+  max-width: 1320px;
+  margin: 50px auto 0;
+  text-align: center;
+  color: #000000;
+}
+
+.products h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45.6px;
+}
+
+.products p {
+  font-size: 16px;
+  line-height: 18.4px;
+  margin: 20px 0 47.12px;
+}
+
+.products .products-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+}
+
+.products .products-container .products__item {
+  width: 290px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products .products-container .products__item-energy {
+  background-color: #005466;
+  color: #F6F9E5;
+}
+
+.products .products-container .products__item-calm {
+  background-color: #F7D8BF;
+  color: #C47B59;
+}
+
+.products .products-container .products__item-ideal {
+  background-color: #F1FAF6;
+  color: #64BAA1;
+}
+
+.products__icon {
+  max-height: 30px;
+  display: block;
+  margin: 40px 0 37px;
+}
+
+.products__name {
+  font-size: 14px;
+  line-height: 16.1px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 42px;
+}
+
+.products__btn {
+  width: 182px;
+  height: 36px;
+  display: block;
+  margin: 0 auto 48px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  line-height: 16px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.products__btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
